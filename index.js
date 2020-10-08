@@ -1,8 +1,9 @@
+import asciiCats from 'ascii-cats';
 class Animal {
-    construrctor(name, sound) {
+    constructor(name, sound) {
         this.name = name;
         this.sound = sound;
-        this.animalSize = ''
+        this.animalSize = '';
     }
 
     speak() {
@@ -21,9 +22,24 @@ class Animal {
 class Cat extends Animal {
     constructor(sound) {
         super('Cat', sound);
-        this.size = 'Small';
+        this.size = 'small';
+    }
+
+    get catName() {
+        return this.name;
+    }
+
+    showCat() {
+        console.log(asciiCats())
+    }
+
+    jump() {
+        console.log(`Because the cat is ${this.size} it takes a tiny jump!`)
     }
 }
 
 const myCat = new Cat('meow meow meow');
 myCat.speak();
+console.log(myCat.catName);
+myCat.showCat();
+myCat.jump();
