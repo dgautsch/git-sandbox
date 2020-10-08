@@ -23,6 +23,9 @@ class Cat extends Animal {
     constructor(sound) {
         super('Cat', sound);
         this.size = 'small';
+        this.whiskers = 18;
+        this.zoomies = 2;
+        this.bellyPats = 'All the pats';
     }
 
     get catName() {
