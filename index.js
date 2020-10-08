@@ -19,13 +19,11 @@ class Animal {
 }
 
 class Cat extends Animal {
-    constructor() {
-        super();
-        this.name = 'Cat';
+    constructor(sound) {
+        super('Cat', sound);
         this.size = 'Small';
-        this.sound = 'Meow';
     }
 }
 
-const myCat = new Cat();
+const myCat = new Cat('meow meow meow');
 myCat.speak();
