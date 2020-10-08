@@ -1,0 +1,27 @@
+{
+  "name": "git-sandbox",
+  "version": "1.0.0",
+  "description": "Demonstrate git",
+  "main": "index.js",
+  "dependencies": {
+    "ascii-cats": "^1.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgautsch/git-sandbox.git"
+  },
+  "keywords": [
+    "cats",
+    "git"
+  ],
+  "author": "Dan Gautsch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgautsch/git-sandbox/issues"
+  },
+  "homepage": "https://github.com/dgautsch/git-sandbox#readme"
+}
