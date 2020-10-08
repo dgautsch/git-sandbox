@@ -40,6 +40,10 @@ class Dog extends Animal {
     sleep() {
         console.log(`The ${name} is sleeping ZZZZzzzz....`)
     }
+
+    getRowdy() {
+        console.log('Ruff ruff ruff ruff, woof woof woof!!')
+    }
 }
 
 const myCat = new Cat();
