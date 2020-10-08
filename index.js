@@ -1,5 +1,5 @@
 class Animal {
-    construrctor(name, sound) {
+    constructor(name, sound) {
         this.name = name;
         this.sound = sound;
         this.animalSize = ''
