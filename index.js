@@ -17,3 +17,12 @@ class Animal {
         return this.animalSize;
     }
 }
+
+class Cat extends Animal {
+    constructor() {
+        super();
+        this.name = 'Cat';
+        this.size = 'Small';
+        this.sound = 'Meow';
+    }
+}
