@@ -32,6 +32,14 @@ class Dog extends Animal {
     constructor() {
         super('Dog', 'Woof')
     }
+
+    eat() {
+        console.log(`The ${name} loves to eat! Yum!`)
+    }
+
+    sleep() {
+        console.log(`The ${name} is sleeping ZZZZzzzz....`)
+    }
 }
 
 const myCat = new Cat();
