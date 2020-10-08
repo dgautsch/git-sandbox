@@ -26,3 +26,6 @@ class Cat extends Animal {
         this.sound = 'Meow';
     }
 }
+
+const myCat = new Cat();
+myCat.speak();
