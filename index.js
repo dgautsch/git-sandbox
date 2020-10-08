@@ -22,6 +22,7 @@ class Cat extends Animal {
     constructor() {
         super();
         this.name = 'Cat';
+        this.whiskers = 12;
         this.size = 'Small';
         this.sound = 'Meow';
     }
