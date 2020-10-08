@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Demonstrate git",
   "main": "index.js",
+  "type": "module",
   "dependencies": {
     "ascii-cats": "^1.1.1"
   },
